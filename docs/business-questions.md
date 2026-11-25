@@ -8,9 +8,10 @@ Cidadão ou jornalista que quer entender como a cota parlamentar é usada.
 - Fora (por enquanto): votações, proposições, presença.
 
 ## Definições globais
-- **Valor de uma despesa:** valor líquido (`valorLiquido`).
+- **Valor de uma despesa:** `valorDocumento − valorGlosa`. Créditos (`valorDocumento` negativo, vistos até agora em passagem aérea) ficam negativos e abatem o total. Não usar `valorLiquido`: o sinal é inconsistente. Regra conferida com o Portal da Transparência.
 - **Granularidade dos dados:** uma linha = um documento de despesa de um deputado.
 - **Valores nominais:** sem correção pela inflação.
+- **Deputados no escopo:** lista da legislatura 57 (inclui quem saiu do cargo e tem gastos).
 - **Deputado em exercício no mês:** a definir na fase 3.
 - **Período de dados do projeto:** a definir na fase 4.
 
